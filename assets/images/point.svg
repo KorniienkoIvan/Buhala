@@ -1,0 +1,7 @@
+<svg id="Компонент_7_1" data-name="Компонент 7 – 1" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <g id="Эллипс_24" data-name="Эллипс 24" fill="#c5b7a6" stroke="#c5b7a6" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <path id="Icon_metro-location" data-name="Icon metro-location" d="M12.919,1.928a4.482,4.482,0,0,0-4.564,4.4c0,4.4,4.564,8.669,4.564,8.669s4.564-4.274,4.564-8.669A4.482,4.482,0,0,0,12.919,1.928Zm0,7.087a2.745,2.745,0,0,1-2.8-2.692,2.8,2.8,0,0,1,5.591,0A2.745,2.745,0,0,1,12.919,9.015Z" transform="translate(-3.355 1.072)" fill="#272424"/>
+</svg>

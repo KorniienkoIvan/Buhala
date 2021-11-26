@@ -1,0 +1,7 @@
+<svg id="Компонент_4_1" data-name="Компонент 4 – 1" xmlns="http://www.w3.org/2000/svg" width="122" height="122" viewBox="0 0 122 122">
+  <g id="Эллипс_2" data-name="Эллипс 2" fill="none" stroke="#ddc28e" stroke-width="3">
+    <circle cx="61" cy="61" r="61" stroke="none"/>
+    <circle cx="61" cy="61" r="59.5" fill="none"/>
+  </g>
+  <path id="Многоугольник_1" data-name="Многоугольник 1" d="M24.5,5.333a5,5,0,0,1,8,0L51,30a5,5,0,0,1-4,8H10a5,5,0,0,1-4-8Z" transform="translate(86.5 33.5) rotate(90)" fill="#ddc28e"/>
+</svg>

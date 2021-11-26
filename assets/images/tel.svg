@@ -1,0 +1,8 @@
+<svg id="Компонент_6_1" data-name="Компонент 6 – 1" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <g id="Эллипс_23" data-name="Эллипс 23" fill="#c5b7a6" stroke="#c5b7a6" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <path id="Icon_material-phone-android" data-name="Icon material-phone-android" d="M13.708,1.5H9.193A1.691,1.691,0,0,0,7.5,3.193v9.029a1.691,1.691,0,0,0,1.693,1.693h4.515A1.691,1.691,0,0,0,15.4,12.222V3.193A1.691,1.691,0,0,0,13.708,1.5ZM12.579,12.787H10.322v-.564h2.257Zm1.834-1.693H8.488v-7.9h5.925Z" transform="translate(0.924 -1.174) rotate(17)" fill="#272424"/>
+  <path id="Icon_material-phone-in-talk" data-name="Icon material-phone-in-talk" d="M9.858,8.352h.856A3.852,3.852,0,0,0,6.862,4.5v.856A2.994,2.994,0,0,1,9.858,8.352Zm-1.712,0H9a2.141,2.141,0,0,0-2.14-2.14v.856A1.282,1.282,0,0,1,8.146,8.352Z" transform="translate(-1.07 7.345) rotate(-25)" fill="#272424"/>
+</svg>
