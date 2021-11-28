@@ -25,7 +25,29 @@ $(document).ready(function() {
 	$(window).on('resize', function () {
 		console.log($(window).width());
 	  });
-  
+	$('.room-cards-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+		responsive: [
+			{
+			  breakpoint: 993,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+
+			  }
+			},
+			{
+			  breakpoint: 567,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			  }
+			}
+		  ]
+    });
+
 });
 
 
@@ -53,7 +75,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		//console.log(navOffset);
 		const scrolled = $(this).scrollTop();
-		console.log(scrolled);
+		//console.log(scrolled);
 		const headerHeight = $('#header').height() + 'px';
 		// console.log(navHeight);
 		// console.log(navOffset);
@@ -369,7 +391,7 @@ $("[data-popup]").each(function(){
     let inview = el.waypoint(function(direction) {
         el.addClass('visible');
     }, {
-        offset: '95%'
+        offset: '160%'
     });
 });
 

@@ -993,28 +993,31 @@ header .menu-main-menu-right-de-container .header-menu {
 
 	.other-products .other-product-card .card-body {
 		padding: 0 20px;
+	}
+	@media only screen and (max-width: 1440px) {
+		.other-products .other-product-card .card-body {
+			padding: 0;
 		}
-		@media only screen and (max-width: 1440px) {
-			.other-products .other-product-card .card-body {
-				padding: 0;
-				}
-				.other-products .other-product-card .card-image img {
-					width: 100%;
-					-o-object-fit: cover;
-					   object-fit: cover;
-					height: 200px;
-					}
-		}	
+		.other-products .other-product-card .card-image img {
+			width: 100%;
+			-o-object-fit: cover;
+			   object-fit: cover;
+			height: 200px;
+		}
+	}	
 	@media only screen and (max-width: 1920px) {
 		.other-products .other-product-card {
 			padding: 0 15px;
-			}
-			.other-products .other-product-card .card-image img {
-				width: 100%;
-				-o-object-fit: cover;
-				   object-fit: cover;
-				height: 250px;
-				}
+		}
+		.single-rooms .other-products .other-product-card {
+			padding: 0 30px;
+		}
+		.other-products .other-product-card .card-image img {
+			width: 100%;
+			-o-object-fit: cover;
+			   object-fit: cover;
+			height: 250px;
+		}
 	}
 	.other-products .other-product-card .card-image {
 	margin-bottom: 38.5px;
@@ -7371,4 +7374,322 @@ footer .wpml-ls-statics-footer {
 
 footer .wpml-ls-statics-footer a , footer .wpml-ls-statics-footer .wpml-ls-current-language>a {
 	background-color: transparent !important;
+}
+.video_section .page_title {
+	color: #272424;
+    text-align: center;
+    font-size: 90px;
+    font-family: Liana;
+    line-height: 1.4;
+    margin-top: 56px;
+	margin-bottom: 108px;
+}
+.video_section .scroll_button_wrapper {
+	display: flex;
+	justify-content: center;
+}
+.video_section .scroll_button {
+	margin-top: 192px;
+	width: 46px;
+	height: 51px;
+	cursor: pointer;
+	margin-bottom: 0px;
+	background-image: url('../images/Down.png');
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	display: block;
+	margin-right: auto;
+}
+.post-type-archive #services {
+	padding-top: 130px;
+	margin-top: -12px;
+}
+.video_section .plyr {
+	height: 413px;
+}
+.video_section .plyr__menu,
+.video_section .plyr__control[data-plyr="pip"] {
+	display: none;
+}
+.video_section .plyr__controls .icon--not-pressed,
+.video_section .plyr__controls .icon--pressed,
+.video_section .plyr__volume input,
+.video_section .plyr__progress input {
+	color: #DDC28E;
+}
+.video_section .plyr__control[data-plyr="play"]:not(:first-child) {
+	background: transparent;
+	width: 126px;
+	height: 126px;
+	background-image: url('../images/Play.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.video_section .plyr__control[data-plyr="play"].plyr__control--pressed:not(:first-child) {
+	background-image: url('../images/Pause.svg');
+	opacity: 1;
+	visibility: visible;
+}
+.video_section .plyr__control[data-plyr="play"]:not(:first-child) svg {
+	display: none;
+}
+.rooms-card .service-card-desc p {
+	font-size: 18px;
+    line-height: 1.167;
+    max-height: 21px;
+    overflow: hidden;
+}
+.rooms-card .service-card-title {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+.rooms-card {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.room-cards-slider {
+	margin-left: -8px;
+	margin-right: -8px;
+	width: 100%;
+	position: relative;
+}
+
+.room-cards-slider .slick-track {
+	justify-content: flex-start;
+}
+.room-cards-slider .slick-list {
+	padding-left: 0;
+    padding-right: 50px
+}
+.room-cards-slider .slick-arrow {
+	position: absolute;
+	top: calc( 50% - 50px );
+	transform: translateY(-50%);
+	width: 27px;
+	height: 50px;
+	right: -50px;
+	background-image: url('../images/slider_arrow.svg');
+	background-color: transparent;
+	border: 0;
+	font-size: 0;
+	cursor: pointer;
+}
+.room-cards-slider .slick-arrow.slick-prev {
+	transform: translateY( -50% ) rotate( -180deg );
+	left: -40px;
+} 
+.post-type-archive-rooms .services .service-cards-wrapper {
+	margin-left: 0;
+	margin-right: 0;
+}
+.post-type-archive-rooms .container {
+	max-width: 1230px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.post-type-archive-rooms .services .service-card.rooms-card {
+	flex: auto;
+}
+@media(min-width: 993px){
+	.post-type-archive-rooms .services .service-card.rooms-card {
+		flex: auto;
+	}
+}
+@media(max-width:992px){
+	.post-type-archive-rooms #services {
+		padding-top: 245px;
+		margin-top: -175px;
+	}
+	.video_section .scroll_button {
+		margin-top: 140px;
+	}
+	.video_section .page_title {
+		font-size: 72px;
+		margin-bottom: 80px;
+		margin-top: 42px;
+	}
+}
+@media(max-width: 768px){
+	.rooms-card .service-card-image img {
+		height: 200px;
+	}
+	.video_section .page_title {
+		font-size: 42px;
+		margin-bottom: 64px;
+		margin-top: 32px;
+	}
+	.video_section .scroll_button {
+		margin-top: 80px;
+	}
+	.post-type-archive-rooms #services {
+		padding-top: 90px;
+		margin-top: -50px;
+	}
+	.video_section .plyr {
+		height: 300px;
+	}
+	.room-cards-slider .slick-arrow.slick-prev {
+		left: -40px;
+	}
+	.room-cards-slider .slick-arrow {
+		top: calc( 50% - 30px );
+	}
+	.video_section .plyr__control[data-plyr="play"]:not(:first-child) {
+		width: 56px;
+		height: 56px; 
+	}
+}
+.single-rooms .a2a_button_facebook {
+	width: 15px;
+	height: 26px;
+}
+.single-rooms .reviews {
+	background: transparent;
+}
+.single-rooms .reviews .reviews_title{
+	font-size: 34px;
+	margin-bottom: 80px;
+	color: #272424;
+}
+
+.single-rooms .reviews .reviews_slider_li_text {
+	color: #272424;
+}
+.single-rooms .reviews .reviews_slider_li_author {
+	color: #C9AB6F;
+	font-size: 22px;
+	margin-bottom: 70px;
+	font-family: Karla;
+	text-transform: uppercase;
+}
+.single-rooms .slick-dots li {
+	border: 1px solid #686560;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.single-rooms .slick-dots li:last-child {
+	margin-left: 15px ;
+}
+.single-rooms .slick-dots li.slick-active {
+	background: #686560;
+}
+.single-rooms .reviews {
+	padding-bottom: 133px;
+	padding-top: 9px;
+}
+.single-rooms,
+.post-type-archive-rooms{
+	background: #F9F7F2;
+}
+.single-rooms .product-page{
+	position: relative;
+	overflow: hidden;
+}
+.single-rooms .product-page::after {
+    content: "";
+    width: 60%;
+    height: 1000px;
+    position: absolute;
+    top: -150px;
+    right: -200px;
+    z-index: -1;
+    background-size: cover;
+    background: url('../images/single-room-background.png');
+    background-size: cover;
+}
+.single-rooms .addtoany_list {
+	display: flex;
+}
+.single-rooms .addtoany_share_save_container {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.single-rooms .addtoany_share_save_container .a2a_button_facebook img  {
+	height: 26px;
+	width: 14px;
+}
+.single-rooms .addtoany_share_save_container .a2a_button_pinterest img  {
+	width: 20px;
+	height: 27px;
+}
+.single-rooms .addtoany_share_save_container .a2a_button_facebook,
+.single-rooms .addtoany_share_save_container .a2a_button_pinterest {
+	padding: 0;
+}
+.single-rooms .addtoany_share_save_container .a2a_button_facebook{
+	margin-right: 36px;
+}
+.single-rooms .addtoany_share_save_container .a2a_button_instapaper,
+.single-rooms .addtoany_share_save_container .a2a_button_twitter {
+	display: none;
+}
+.single-rooms .product-details .button {
+	max-width: 100%;
+	margin-left: 0;
+}
+.single-rooms .product-description{
+	margin-bottom: 57px;
+}
+@media(max-width: 1200px){
+	.single-rooms .addtoany_share_save_container {
+		bottom: -48px;
+	}
+	.single-rooms .product-gallery > .row {
+		height: 100%
+	}
+	.single-rooms .product-details .button {
+		margin-bottom: 68px;
+	}
+}
+
+.single-rooms .product-details .share_icons{
+	max-height: 32px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 40px;
+}
+.single-rooms .product-details .button {
+  margin-bottom: 92px;
+}
+@media(min-width: 1800px) {
+	.post-type-archive-rooms .container {
+		max-width: 1480px;
+		padding-left: 100px;
+		padding-right: 60px;
+	}
+}
+@media(max-width: 768px){
+	.post-type-archive-rooms .video_section .container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.room-cards-slider .slick-arrow {
+		width: 14px;
+		height: 26px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.room-cards-slider .slick-list{
+		padding-right: 20px;
+	}
+	.room-cards-slider .slick-arrow.slick-prev{
+		left: -20px;
+	}
+	.room-cards-slider .slick-arrow.slick-next{
+		right: -30px;
+	}
+	.post-type-archive-rooms .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.video_section .scroll_button{
+		height: 30px;
+		width: 28px;
+	}
 }

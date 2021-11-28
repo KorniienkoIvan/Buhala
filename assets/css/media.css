@@ -61,6 +61,12 @@
 	  max-height: 190px;
 	  overflow: hidden;
 	}
+	.service-card .service-card-image {
+		max-height: 290px;
+	}
+	.rooms-card .service-card-image img {
+		height: 290px;
+	}
 }
 
 @media (min-width: 991px) {
@@ -158,11 +164,16 @@
 	  max-height: 300px;
 	  overflow: hidden;
 	}
+	.rooms-card .service-card-image {
+		max-height: 400px;
+	}
 	.container.contact-container {
 	  max-width: 1060px;
 	}
   
-  
+	.rooms-card .service-card-image img {
+		height: 380px;
+	}
   
 	.contact-page .bottom-banner img {
 	  height: 600px;
